@@ -5,10 +5,10 @@ Software to enumerate pattern avoiding permutations by an algorithm based on Rot
 ## How to use
 
 1. Copy [SAPPOROBDD](https://github.com/Shin-ichi-Minato/SAPPOROBDD) under PatternAvoiding directory and follow the install instructions in the linked GitHub repository.
-  - This program assumes you run `INSTALL`, not `INSTALL32` in the instructions.
+   - This program assumes you run `INSTALL`, not `INSTALL32` in the instructions.
 
 2. Move to `PatternAvoidingCount` directory and run `make` on command line.
-  - You can `make clean` to remove all the compiled files.
+   - You can `make clean` to remove all the compiled files.
 
 3. Run `./avoid.exe [N] [perm]`.
    Where `[N]` is the length of pattern avoiding permutations you want to know their count.
